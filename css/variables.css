@@ -1,0 +1,33 @@
+:root {
+    /* Primary Colors */
+    --color-midnight-green: #014e56;
+    --color-light-coral: #f67e7e;
+    --color-white: #ffffff;
+  
+    /* Secondary Colors */
+    --color-rapture-blue: #79c8c7;
+    --color-police-blue: #2c6269;
+    --color-deep-jungle-green: #004047;
+    --color-sacramento-state-green: #012f34;
+    --color-dark-green: #002529;
+  
+    /* Typography */
+    --font-family-primary: "Livvic", sans-serif;
+  
+    /* Font Sizes */
+    --font-size-h1-large: 100px;
+    --font-size-h1-small: 64px;
+    --font-size-h2: 48px;
+    --font-size-h3: 18px;
+    --font-size-body-1: 18px;
+    --font-size-body-2: 15px;
+  
+    /* Line Heights */
+    --line-height-h1-large: 100px;
+    --line-height-h1-small: 56px;
+    --line-height-h2: 48px;
+    --line-height-h3: 28px;
+    --line-height-body-1: 28px;
+    --line-height-body-2: 25px;
+  }
+  

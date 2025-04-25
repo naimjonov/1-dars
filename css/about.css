@@ -1,0 +1,131 @@
+@import './global.css';
+/* About */
+
+.about {
+    padding-top: 60px;
+    padding-bottom: 120px;
+    background-image: url(../img/bg-pattern-about-1-mobile-nav-1.svg);
+    background-repeat: no-repeat;
+    background-position: bottom right -100px;
+}
+
+.about__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__title {
+    font-size: var(--font-size-h1-small);
+    line-height: var(--line-height-h1-large);
+}
+
+.about__content {
+    width: 540px;
+}
+
+.about__divider {
+    background: var(--color-light-coral);
+    margin-bottom: 40px;
+    font-size: var(--font-size-body-1);
+    line-height: var(--line-height-body-1);
+}
+
+/* Services */
+.services {
+    padding-top: 140px;
+    padding-bottom: 140px;
+    background-color: var(--color-deep-jungle-green);
+    background-image: url("./images/bg-pattern-about-2-contact-1.svg"),
+        url("../images/bg-pattern-home-4-about-3.svg");
+    background-repeat: no-repeat;
+    background-position: left -100px top, right bottom;
+}
+
+.services__container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.services__list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.section-title {
+    margin-bottom: 64px;
+}
+
+.services__item {
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--color-sacramento-state-green);
+    padding-top: 32px;
+}
+
+.services__img {
+    border-radius: 50%;
+    border: 2px solid #c4fffe;
+    margin-bottom: 14px;
+}
+
+.services__subtitle {
+    color: var(--color-rapture-blue);
+    font-size: var(--font-size-body-1);
+    line-height: var(--line-height-body-1);
+}
+
+.services__name {
+    display: inline-block;
+    font-weight: 500;
+    margin-bottom: 28px;
+}
+
+.services__button {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-light-coral);
+    margin-bottom: -28px;
+    transition: 0.3s;
+}
+
+.services__button:hover {
+    background-color: var(--color-rapture-blue);
+}
+
+/* Clients */
+.clients {
+    padding-top: 140px;
+    padding-bottom: 140px;
+    background-color: var(--color-sacramento-state-green);
+    background-image: url("../images/bg-pattern-home-3.svg");
+    background-repeat: no-repeat;
+}
+
+.clients__container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.clients__images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.clients__img {
+    cursor: pointer;
+}
